@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Pokemon Battle Ground">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Battle</title>
+
+  <!-- App Styling -->
+  <link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body>
+
+<audio autoplay="autoplay" loop="loop" >
+    <source src="audio/101-opening.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
+ <header>
+      <h1>Gotta Battle 'Em All</h1>
+      <p class="pre">Battle Area</div></p>
+
+    <div>
+        <div id="user-container" style="visibility: hidden">
+        <div hidden id="user-pic"></div>
+        <div hidden id="user-name"></div>
+        <button hidden id="sign-out" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+          Sign-out
+        </button>
+        <button id="sign-in" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
+          <i class="material-icons">account_circle</i>Sign-in with Google
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main align="center">
+  </main>
+</div>
+
+<!-- Import and configure the Firebase SDK -->
+<!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
+<!-- If you do not want to serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
+<script src="/__/firebase/7.6.2/firebase-app.js"></script>
+<script src="/__/firebase/7.6.2/firebase-auth.js"></script>
+<script src="/__/firebase/7.6.2/firebase-storage.js"></script>
+<script src="/__/firebase/7.6.2/firebase-messaging.js"></script>
+<script src="/__/firebase/7.6.2/firebase-firestore.js"></script>
+<script src="/__/firebase/7.6.2/firebase-performance.js"></script>
+<script src="/__/firebase/init.js"></script>
+
+<script src="scripts/pokemon_import_gyms.js"></script>
+</body>
+</html>

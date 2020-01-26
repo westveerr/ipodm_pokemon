@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="30" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Pokemon Highscores">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Highscores</title>
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- Web Application Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Friendly Chat">
+  <meta name="theme-color" content="#303F9F">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Friendly Chat">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#303F9F">
+
+  <!-- Tile icon for Win8 -->
+  <meta name="msapplication-TileColor" content="#3372DF">
+  <meta name="msapplication-navbutton-color" content="#303F9F">
+
+  <link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body>
+ <header>
+      <h1>Gotta Battle 'Em All</h1>
+      <p class="pre">Export</div></p>
+  </header>
+
+  <main>
+        <div>
+            <div id="export_data">
+            </div>
+
+
+  </main>
+
+<!-- Import and configure the Firebase SDK -->
+<!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
+<!-- If you do not want to serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
+<script src="/__/firebase/7.6.2/firebase-app.js"></script>
+<script src="/__/firebase/7.6.2/firebase-auth.js"></script>
+<script src="/__/firebase/7.6.2/firebase-storage.js"></script>
+<script src="/__/firebase/7.6.2/firebase-messaging.js"></script>
+<script src="/__/firebase/7.6.2/firebase-firestore.js"></script>
+<script src="/__/firebase/7.6.2/firebase-performance.js"></script>
+<script src="/__/firebase/init.js"></script>
+
+<script src="scripts/pokemon_export_highscores.js"></script>
+
+
+
+
+</body>
+</html>

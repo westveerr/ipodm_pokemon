@@ -1,0 +1,160 @@
+
+ html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  background: #000;
+  background-color: #f9ead7;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.att_pokemon_container .att_name, .att_type, .att_strength {
+  display: inline-block;
+  width: 100%;
+  padding-left: 40px;
+  color: #bbb;
+  font-style: italic;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.value{
+  display: inline-block;
+  width: 100%;
+  padding-left: 40px;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #3a5eaa;							/* Oranje */
+	font-family: 'Open Sans', sans-serif;
+}
+
+.battle_header{
+  font-size: 1.6em;
+  font-weight: bold;
+  -webkit-text-fill-color: #ffca06;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #3a5eaa;
+}
+
+.column {
+  float: left;
+  width: 50%;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header, nav, main
+{
+	margin: auto;
+}
+
+header
+{
+	/*background-color: #FFCC18;*/
+	background-image: url("../images/header.jpg");
+	background-position: center;
+	background-size: 100%;
+	text-align: left;
+	padding: 2em 0 0 2em;
+	border-bottom: 1px solid #000;
+	height: 150px;
+}
+
+header h1
+{
+	font-family: 'Open Sans', sans-serif;
+	-webkit-text-fill-color: #ffca06;
+	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-color: #3a5eaa;
+	font-weight: bold;
+	font-size: 4em;
+	font-weight: bold;
+	margin-top: -0.2em;
+}
+
+header .pre
+{
+	font-size: 2em;
+	font-weight: bold;
+	-webkit-text-fill-color: #ffca06;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #3a5eaa;
+}
+
+main
+{
+	margin-bottom: 2em;
+	border-radius: 0 0 0.8em 0.8em;
+	width: 85%;
+}
+
+#highscores
+{
+	display: block;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #3a5eaa;							/* Oranje */
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.battle_label
+{
+	font-size: 1.6em;
+	font-weight: bold;
+	-webkit-text-fill-color: #ffca06;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #3a5eaa;
+}
+
+#name
+{
+	display: block;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #3a5eaa;							/* Oranje */
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#ref_to_next_page {
+  position: absolute;
+  top: 800px;
+  left:5%;
+  width: 200px;
+  height: 100px;
+}
+
+#ref_to_index {
+  position: absolute;
+  top: 800px;
+  left: 25%;
+  width: 100px;
+  height: 100px;
+}
+
+#ref_to_shuffle {
+  position: absolute;
+  top: 800px;
+  right: 30%;
+  width: 100px;
+  height: 100px;
+}
+
+#battle_outcome {
+  position: absolute;
+  top: 280px;
+  left: 20%;
+  right: 80%;
+  width: 500px;
+  height: 450px;
+
+  font-size: 1.4em;
+	font-weight: bold;
+	color: #ffffff;							/* Oranje */
+	font-family: 'Open Sans', sans-serif;
+}
